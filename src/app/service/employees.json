@@ -1,0 +1,51 @@
+[
+    {
+        "employeeId":10,
+        "firstName": "Jerin",
+        "lastName": "Simon",
+        "address": "Jersey City New Jersey",
+        "zip": 7304,
+        "salary": 130000
+        
+    },
+    {
+        "employeeId":11,
+        "firstName": "Anoop",
+        "lastName": "Kalooran",
+        "address": "Heralad Sq,NewYork",
+        "zip": 123434,
+        "salary": 150000
+    },
+       {
+        "employeeId":12,
+        "firstName": "Jenny",
+        "lastName": "Sam",
+        "address": "Monroe,New Jersey",
+        "zip": 8856,
+        "salary": 100000
+    },
+      {
+        "employeeId":13,
+        "firstName": "Craig",
+        "lastName": "Moopen",
+        "address": "Pitscasway New Jersey",
+        "zip": 8809,
+        "salary": 130000
+    },
+        {
+        "employeeId":14,
+        "firstName": "Peeyush",
+        "lastName": "Jain",
+        "address": "Old Bridge New Jersey",
+        "zip": 34989,
+        "salary": 17000
+    },
+      {
+        "employeeId":15,
+        "firstName": "Samantha",
+        "lastName": "Peter",
+        "address": "Freehold New Jersey",
+        "zip": 98984,
+        "salary": 75000
+    }
+]

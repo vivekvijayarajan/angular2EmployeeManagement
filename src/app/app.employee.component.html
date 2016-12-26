@@ -1,0 +1,36 @@
+
+<div class="container">
+    <div  class="container">
+      <br/>
+      <br/>
+      <h2  class="display-4">{{pageTitle}}</h2>
+      <hr/>
+         <br/>
+    </div>
+<div class="container">
+  <app-search (searchEmployeeSearcher) = "OnSearchClicked($event)"></app-search>
+</div>
+    <div class="container">
+      <table class="table table-striped">
+  <thead>
+    <tr>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Address</th>
+      <th>Zip Code</th>
+      <th>Salary</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor='let employee of employees | employeeFilterPipe:fliterBy'>
+     <td><a [routerLink]="['/employee',employee.employeeId]" > {{employee.firstName | uppercase}} </a> </td>
+      <td>{{employee.lastName | uppercase}} </td>
+      <td>{{employee.address}}</td>
+      <td>{{employee.zip}}</td>
+      <td>{{employee.salary | currency:'USD':true}} </td>
+    </tr>
+     </tbody>
+</table>
+    </div>
+
+</div>
